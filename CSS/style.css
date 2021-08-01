@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     height: 100%;
 }
 
@@ -11,45 +11,136 @@ h1 {
     margin: 40px auto 0 auto;
     font-family: 'Sacramento', cursive;
     color: #66BFBF;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
-    font-weight: normal;
+    font-weight: 900;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    font-weight: 900;
 }
 
-a {
+p {
+    color: #40514E;
+}
+
+hr {
+    border-color: #EAF6F6;
+    border-width: 8px;
+    border-style: dotted none none;
+    border-collapse: collapse;
+    width: 5%;
+}
+
+
+.footer-link {
     color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 900;
+    margin: 20px;
 }
 
 .top-container {
-    background-color: #cdf1f3;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
     margin: 0 auto;
 }
 
-.middle-container {
-
+.profile {
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+    margin: 100px auto;
 }
 
-.bottom-container {
+.skills {
+    margin: 100px 0 0 0;
+}
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.law-img {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+    margin: 100px auto;
 }
 
 .top-cloud {
     position: absolute;
-    right: 460px;
+    right: 350px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
+    left: 300px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #d9e8e9;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 20px;
+    background-color: #66BFBF;
+    text-shadow: 0 7px 34px #0059A0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    width: 150px;
+}
+
+.btn:hover {
+    background: #11999E;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 130px;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.bottom-par {
+    color: #EAF6F6;
+    font-size: 14px;
 }
