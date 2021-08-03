@@ -7,6 +7,39 @@ body {
     height: 100%;
 }
 
+.topnav {
+    background-color: #EAF6F6;
+    overflow: hidden;
+    height: 100px;
+}
+
+.topnav ul {
+    margin: 20px auto 0;
+    list-style-type: none;
+    display: inline-block;
+    top: 0;
+}
+
+.topnav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #935199;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 10px 25px;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav a:hover {
+    color: #0e5153;
+    font-size: 1.8rem;
+    transition: 0.2s ease;
+}
+
 h1 {
     font-size: 5.625rem;
     margin: 40px auto 0 auto;
@@ -56,7 +89,7 @@ a:hover {
 
 .top-container {
     background-color: #EAF6F6;
-    position: relative;
+    
     padding-top: 100px;
     margin: 0 auto;
 }
@@ -107,7 +140,7 @@ a:hover {
 .top-cloud {
     position: absolute;
     right: 350px;
-    top: 30px;
+    top: 100px;
 }
 
 .bottom-cloud {
